@@ -1,4 +1,4 @@
-Exercises
+<h1>*Exercises*</h1>
 
 Calculator Revisited
 
