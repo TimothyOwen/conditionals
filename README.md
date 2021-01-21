@@ -1,6 +1,6 @@
-<h1>*Exercises*</h1>
+*<h1>Exercises</h1>*
 
-Calculator Revisited
+<h2>Calculator Revisited</h2>
 
 Edit the division method in the Calculator class, the sum should only execute if the first parameter is smaller than the second, otherwise it prints out a message saying that the division cannot be performed.
 
