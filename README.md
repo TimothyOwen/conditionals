@@ -1,10 +1,10 @@
-Exercises
+*<h1>Exercises</h1>*
 
-Calculator Revisited
+<h2>Calculator Revisited</h2>
 
 Edit the division method in the Calculator class, the sum should only execute if the first parameter is smaller than the second, otherwise it prints out a message saying that the division cannot be performed.
 
-Results Revisited
+<h2>Results Revisited</h2>
 
 Expand the Results class so that there is now a pass mark of 60%; if the person receives under 60% they get a fail message.
 
@@ -18,7 +18,7 @@ but in this case the student would fail because their physics grade is 54% (Fail
 
 Expand the above so that the message that is displayed varies depending on the number of subjects that they have failed.
 
-Flowcharts
+<h2>Flowcharts</h2>
 
 Create a method which accepts 3 parameters, 2 integers and a boolean.
 
@@ -26,11 +26,14 @@ If the boolean is true, the method will return a sum of the two numbers, and it 
 For example:
 
 Input (1, 2, true) -> 3
+
 Input (3, 3, false) -> 9
+
 Input (1, 1, true) -> 2
+
 Recreate the following flowchart as a project. Ensure that your logic and outputs match that of the flowchart.
 
-ConditionalFlowChartExercise
+<h2>Conditional Flow Chart Exercise</h2>
 
 Create a method that takes a single integer A as a parameter.
 
@@ -40,34 +43,49 @@ Next, Directly under print 1 but not outside of the if statement, make another i
 
 And so on. Be sure to check you are nesting the new if statements in the correct place.
 
-BlackJack
+<h2>BlackJack</h2>
 
 Given 2 integer values greater than 0, return whichever is closest to 21 without going over 21. If they both go over 21 then return 0.
 
  play (10, 21) -> 21
+ 
  play (20, 18) -> 20
+ 
  play (1, 22) -> 1
+ 
  play (22, 23) -> 0
-Unique Sum
+ 
+ 
+<h2>Unique Sum</h2>
+
 Given 3 integer values, return their sum. If one value is the same as another value, they do not count towards the sum. In other words, only return the sum of unique numbers given.
 
  Input(1, 2, 3) -> 6
+ 
  Input(3, 3, 3) -> 0
+ 
  Input(1, 1, 2) -> 2
-Taxes
+ 
+<h2>Taxes</h2>
+
 Create the tax class, it contains 2 methods.
 
 Method 1 - which takes a salary and works out the percentage by which the salary will be taxed.
 
 Method 2 - which works out the exact amount that the user will be taxed using a similar process to that in the first method. That amount should be returned and output to the console.
 
-These 2 methods should be able to work independently, so it is fine in this case if some of the code is repeated.*
+These 2 methods should be able to work independently, so it is fine in this case if some of the code is repeated.
 
 The salaries are taxed as below:
 
 0 - 14,999 : 0% tax
+
 15,000 - 19,999 : 10% tax
+
 20,000 - 29,999 : 15% tax
+
 30,000 - 44,999 : 20% tax
+
 45,000+ : 25% tax
+
 Finally combine the 2 methods so that the second method utilizes the first method to return the correct result.
