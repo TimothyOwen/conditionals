@@ -78,7 +78,7 @@ These 2 methods should be able to work independently, so it is fine in this case
 
 The salaries are taxed as below:
 
-__0 - 14,999 : 0% tax
+0 - 14,999 : 0% tax
 
 15,000 - 19,999 : 10% tax
 
@@ -86,6 +86,6 @@ __0 - 14,999 : 0% tax
 
 30,000 - 44,999 : 20% tax
 
-45,000+ : 25% tax__
+45,000+ : 25% tax
 
 Finally combine the 2 methods so that the second method utilizes the first method to return the correct result.
